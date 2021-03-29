@@ -1,0 +1,163 @@
+body{
+    margin: 0px;
+    font-family: 'arial';
+    background-color: #e95510;
+    color: grey;
+    text-align: justify
+  }
+  
+  h1, h2, h3, h4{
+    font-family: 'arial';  
+    color:  black;
+  }
+  
+  h1{
+    font-size: 45px;
+  }
+  
+  h2{
+    font-size: 30px;
+  }
+  
+  h3{
+    font-size: 20px;
+  }
+  
+  img{
+      object-fit: cover;
+      height: 300px;
+      justify-content: flex-end;
+  }
+  
+  section{
+    padding: 50px 100px;
+  }
+  
+  .bg-white{
+    background-color: white;
+  }
+  
+  /* SECTION HERO*/
+  #hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  }
+  #hero img{
+    height: 300px;
+    width: 100%;
+  }
+  
+  a{
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid;
+    margin: 10px;
+  }
+  
+  .btn{
+    border-radius: 4px;
+    display: inline-block;
+    padding: 8px 12px;
+    border: 0px solid;
+    font-family: 'arial';
+    background-color: #e95510;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover{
+    background-color: #white;
+  }
+  
+  .italic-gray{
+    font-style: italic;
+    colot: gray;
+    margin-top: -16px;
+  }
+  
+  /* SECTION A LA UNE*/
+  .card{
+    width: 30%;
+    height: 200px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 3px black;
+    border: px solid;
+    border-radius: 8px;
+  }
+  
+  .card h3{
+    color: white;
+    font-size: 30px;
+  }
+  
+  .card-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .satisfaction{
+    background-image: url('https://www.mercier-immobilier.com/wp-content/themes/mercier/assets/images/Logo-qualite3.jpg');
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 3px black;
+    width: 30%;
+    height: 300px;
+  }
+  
+  
+  .programme{
+    background-image: url('https://www.mercier-immobilier.com/wp-content/themes/mercier/assets/images/Home_photo%20.jpg');
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 3px black;
+    width: 30%;
+    height: 300px;
+  }
+  
+  
+  .actualites{
+    background-image: url('https://www.mercier-immobilier.com/wp-content/themes/mercier/assets/images/act-img.png');
+    background-size: cover;
+    background-position: center;
+    text-shadow: 2px 2px 3px black;
+    width: 30%;
+    height: 300px;
+  }
+  
+  /* SECTION PRODUITS*/
+  
+  .card-product{
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  
+  .card-product img{
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+  }
+  
+  /* SECTION FEATURE*/
+  
+  .card-line{
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px #80808082;
+    padding: 10px;
+  }
+  
+  .card-line img{
+    width: 40%;
+    height: 200px;
+    border-radius: 5px;
+    padding: 5px;
+  }

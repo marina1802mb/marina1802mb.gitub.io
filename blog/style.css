@@ -1,0 +1,57 @@
+body{
+    margin: 20px;
+    font-family: "Roboto";
+    background-color: grey
+  }
+  
+  .hero{
+    height: 50vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://prmeng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2020/09/18/node_127258/37629212/public/2020/09/18/B9724634248Z.1_20200918135219_000%2BGVHGMPLG9.1-0.jpg?itok=8iG-_hya1600432170);
+    background-size: cover;
+  
+  }
+  
+  .exemple1 {
+    color: white;
+    text-shadow: 2px 2px 0px #ae4e6f;
+   
+  }
+  
+  
+  .exemple2 h1{
+    background-color: grey; 
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  div { 
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 3px 3px 12px 
+    
+    }
+  
+  h1, h2, h3, h4 {
+   font-family: 'Noto Sans JP', sans-serif; 
+    color: white; 
+  }
+  
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  h2 {
+    color: white;
+    font-weight: regular;
+  }
+  
